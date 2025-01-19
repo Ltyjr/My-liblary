@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9d8f0;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+span{
+    color: red;
+}
+
+header {
+    background-color: #dcb4e1;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 70px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #5a265e;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.menu-item {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu-item:hover {
+    color: #5a265e;
+}
+
+main {
+    padding: 20px;
+}
+
+.book-section {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-image {
+    max-width: 150px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.book-details {
+    flex: 1;
+}
+
+.book-author {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #5a265e;
+}
+
+.book-description {
+    margin-bottom: 15px;
+}
+
+.buy-button {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: #9f02ae;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+    background-color: #7c027e;
+}
+
+footer {
+    background-color: #b68fb9;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.footer-title {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
